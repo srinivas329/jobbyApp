@@ -1,0 +1,57 @@
+.login-bg {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-bg {
+  background-color: #202020;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.website-logo {
+  width: 150px;
+  height: 62px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.username-text {
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+}
+.login-input {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #64748b;
+  height: 32px;
+  outline: none;
+  outline-color: transparent;
+  color: azure;
+}
+.login-btn {
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 8px;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+}
+.login-error {
+  color: #ff0b37;
+  margin: 0px;
+  font-size: 10px;
+}
+@media screen and (max-width: 576px) {
+  .form-bg {
+    width: 80%;
+  }
+}
